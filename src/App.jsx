@@ -36,7 +36,7 @@ function App() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       <h1 className='font-bold'>Play song</h1>
       <audio controls autoplay loop>
-        <source src="./public/song-seyi.mp3" type="audio/mpeg" />
+        <source src="https://files.gospeljingle.com/uploads/music/2023/02/Faouzia_ft_John_Legend_-_Minefield.mp3" type="audio/mpeg" />
       </audio>
       {yesPressed ? (
         <>
