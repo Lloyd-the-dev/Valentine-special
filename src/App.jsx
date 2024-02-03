@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen -mt-16">
       <h1 className='font-bold'>Play song</h1>
-      <audio controls autoplay>
+      <audio controls autoplay loop>
         <source src="./public/song-seyi.mp3" type="audio/mpeg" />
       </audio>
       {yesPressed ? (
